@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 import java.util.logging.Logger;
 import java.util.List;
 
-public class AppMain {
+public class WindowsApp {
 
     private static Logger logger = Logger.getLogger("AppMain");
 
@@ -36,6 +36,7 @@ public class AppMain {
         int pageSize = 1;
         while(next){
             List<String> passwords = FileUtils.readLine(APP_DIR+"/password.txt", pageSize * 1000, (pageSize + 1) * 1000 - 1);
+            pageSize++;
             if (passwords != null && passwords.size() != 0){
                 for (String password : passwords) {
                     String profileContent = Profile.PROFILE.replace(Profile.WIFI_NAME, wifiName);

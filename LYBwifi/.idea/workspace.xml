@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/AppMain.java">
+      <file leaf-file-name="WindowsApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,10 +24,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MacApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/MacApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/password.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/Profile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="68">
               <caret line="10" column="53" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="53" />
             </state>
           </provider>
@@ -36,8 +57,8 @@
       <file leaf-file-name="CMDUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CMDUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="769">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +85,10 @@
         <option value="$PROJECT_DIR$/src/com/alialiso/wifi/ProfileGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/alialiso/wifi/CMDUtil.java" />
         <option value="$PROJECT_DIR$/src/com/alialiso/wifi/AppMain.java" />
+        <option value="$PROJECT_DIR$/src/com/alialiso/wifi/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java" />
+        <option value="$PROJECT_DIR$/password.txt" />
+        <option value="$PROJECT_DIR$/src/com/alialiso/wifi/MacApp.java" />
       </list>
     </option>
   </component>
@@ -101,6 +126,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,14 +151,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -158,9 +184,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppMain">
+  <component name="RunManager" selected="Application.MacApp">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alialiso.wifi.AppMain" />
+      <module name="LYBwifi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alialiso.wifi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MacApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alialiso.wifi.MacApp" />
+      <module name="LYBwifi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alialiso.wifi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alialiso.wifi.Test" />
       <module name="LYBwifi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -234,9 +282,13 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="Application.AppMain" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.MacApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MacApp" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.AppMain" />
       </list>
     </recent_temporary>
@@ -255,19 +307,21 @@
       <workItem from="1560266227145" duration="12291000" />
       <workItem from="1561215564788" duration="1000" />
       <workItem from="1561356639390" duration="4046000" />
+      <workItem from="1561608705173" duration="4134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18301000" />
+    <option name="totallyTimeSpent" value="22435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1393" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" sideWeight="0.5003701" side_tool="true" visible="true" weight="0.4680307" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -283,10 +337,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4680307" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996299" visible="true" weight="0.4680307" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950408" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17172465" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="JavaEE:App" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -306,7 +360,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/AppMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CMDUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
@@ -316,13 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CrackThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CrackThread.java" />
     <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -350,7 +425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/AppMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
@@ -360,13 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CrackThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CrackThread.java" />
     <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -394,7 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/AppMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
@@ -411,13 +480,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/password.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -438,54 +500,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/ProfileGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/ProfileGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/0.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CrackThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="68">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/WindowsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CMDUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="769">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CMDUtil.java">
+    <entry file="file://$PROJECT_DIR$/password.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/Profile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/MacApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/CrackThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alialiso/wifi/AppMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
